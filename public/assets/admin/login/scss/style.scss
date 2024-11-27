@@ -1,0 +1,101 @@
+@import 'variables';
+@import 'global';
+
+.section,
+.main-wrapper {
+  float: left;
+  width: 100%;
+}
+.main-wrapper {
+  overflow-x: hidden;
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 75rem;
+  }
+}
+.section-padding {
+  padding: 6.25rem 0;
+
+  @media(max-width: 992px){
+    padding: 3.25rem 0;
+  }
+}
+
+.section-title .title {
+  font-size: 1.875rem;
+  font-weight: $font_bold;
+  color: $gray_700;
+  margin-bottom: 0;
+}
+
+@import 'buttons';
+
+@import 'forms';
+
+
+.login-register-wrapper {
+  margin-top: -5px;
+}
+.login-register-wrapper .title {
+  font-size: 24px;
+  font-weight: $font_semibold;
+  color: #494949;
+}
+.login-register-wrapper .form-check {
+  margin-bottom: 0;
+  min-height: inherit;
+  margin-top: 30px;
+}
+.login-register-wrapper .form-check .form-check-input {
+  margin-top: 4px;
+}
+.login-register-wrapper .single-form .btn {
+  width: 160px;
+}
+.login-register-wrapper p {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.login-register-wrapper p a {
+  text-decoration: none;
+}
+.copyright {
+  background-color: $secondary;
+}
+.copyright-text {
+  text-align: center;
+  padding: 12px 0;
+}
+.copyright-text p {
+  color: $white;
+  font-size: 15px;
+}
+.copyright-text p span {
+  color: $brand;
+}
+.copyright-text p i {
+  color: red;
+}
+.copyright-text p a {
+  color: $brand;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-weight: $font_medium;
+}
+.copyright-text p a:hover {
+  color: $brand;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dddddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $brand;
+}
