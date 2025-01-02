@@ -37,7 +37,7 @@ $render('partials/site', 'breadcrumbs', [
                             <div class="row g-0">
                                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
                                     <div class="h-100">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7360.563490938211!2d-45.569528!3d-22.717767!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc88516d73af07%3A0x6db09dc633effc3c!2sOn%20hostel%20Campos%20do%20Jord%C3%A3o%20passeios%20quadriciclos!5e0!3m2!1spt-BR!2sbr!4v1730567725128!5m2!1spt-BR!2sbr" width="100%" height="450" style="filter: invert(100%) contrast(100%); border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d920.0724526323562!2d-45.5737321!3d-22.7174671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc89006471641f%3A0x9918e98029bc3cb8!2sOn%20Hostel%20Capivari%20Campos%20do%20Jord%C3%A3o%20passeio%20quadriciclo!5e0!3m2!1spt-BR!2sbr!4v1735854320742!5m2!1spt-BR!2sbr" width="100%" height="450" style="filter: invert(100%) contrast(100%); border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             </div>
