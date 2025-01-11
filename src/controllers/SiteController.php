@@ -71,7 +71,7 @@ class SiteController extends Controller {
             'pageId'                => $pageId
         ];
 
-        $this->render('pages/site', 'home', [
+        $this->render('pages/site', 'home_new', [
             'metadata'              => $metadata,
         ]);
     }
